@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <link rel="stylesheet" href="/build/style.css">
+    <!-- font-awesome kit -->
+    <script src="https://kit.fontawesome.com/3c0978bdf1.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="h-screen w-screen bg-cover flex" style="background-image: url(./img/background-image.png);">
+    <!-- container -->
+    <div class="h-screen">
+        <!-- img cover -->
+        <!-- starting hamburger manu -->
+        <div class="w-screen h-16 flex justify-around items-center p-4 sticky">
+           
+            <div>
+                <img src="./img/website-logo.png" class="" />
+            </div>
+            <div class="hidden sm:block text-lg" aria-label="main">
+                <ul class="flex items-center gap-4 font-sans">
+                    <li>
+                        <a href="#">RETAIL</a>
+                    </li>
+                    <li>
+                        <a href="#">SME</a>
+                    </li>
+                    <li>
+                        <a href="#">CORPORATE</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#">COVID 19</a>
+                    </li>
+                    <li>
+                        <a href="#">CAMPAIGN</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class=" rounded-lg flex items-center gap-3"><i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                <button class=" bg-pink-500 rounded-md text-white w-28 h-10">IService</button>
+            </div>
+
+        </div>
+
+        <main class="mx-auto relative">
+           <section class="flex flex-col-reverse items-center sm:flex-row p-4 gap-2">
+            <article class="w-1/2 flex flex-col items-end">
+                <div class="sm:mt-14 sm:mr-10 pt-9">
+                    <h2 class="max-w-md text-4xl font-bold text-center sm:text-6xl sm:text-left text-slate-900">
+                        Chase Your Dream with us
+                    </h2>
+                    <p class="max-w-md text-2xl mt-4 mb-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+                        The harder you work for something, the greater you'll when you achieve it.
+                    </p>
+                </div>
+                <div class="sm:mr-40 pr-6 flex flex-wrap gap-4">
+                    <button class="bg-pink-500 text-white rounded-md w-32 h-10 ">APPLY ONLINE</button>
+                    <button class="bg-slate-50 text-pink-500 rounded-md w-40 h-10 border border-pink-500">LOAN CALCULATOR</button>
+                </div>
+                <div class="flex items-center justify-start w-8/12 h-10 p-1 gap-4 sm:mt-10 pt-10">
+                    <img src="./img/phone.png" class="h-6" alt="">
+                    <p class="text-xl text-gray-600">1659</p>
+                    <p class="text-xl text-gray-600"> |</p>
+                    <img src="./img/facebook.png" class="h-6" alt="">
+                    <img src="./img/youtube.png" class="h-6" alt="">
+                    <img src="./img/instagram.png" class="h-6" alt="">
+                    <img src="./img/linkedin.png" class="h-6" alt="">
+                </div>
+            </article>
+            <article class="w-1/2">
+                <img src="./img/hero-image.png" class="sm:mt-10" />
+                <div class="sm:absolute sm:left-[600px] sm:top-[16px]">
+                    <button class="w-44 h-12 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] shadow-gray-500 rounded-3xl text-lg flex justify-evenly items-center"><img src="./img/car.png" alt="">Car Loan</button>
+                </div>
+                <div class="sm:absolute sm:left-[1160px] sm:top-[125px]">
+                    <button class="w-44 h-12 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] shadow-gray-500 rounded-3xl text-lg flex justify-evenly items-center"><img src="./img/House.png" alt="">Home Loan</button>
+                </div>
+               
+            </article>
+           </section>
+            
+        </main>
+
+    </div>
+</body>
+
+</html>
